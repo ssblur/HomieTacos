@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "R": {
+            "item": "homie:dude_meat"
+        }
+    },
+    "result": {
+        "item": "homie:homie_taco",
+        "count": 1
+    }
+}

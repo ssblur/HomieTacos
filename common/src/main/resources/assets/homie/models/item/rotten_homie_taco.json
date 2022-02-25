@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "homie:item/rotten_homie_taco"
+    }
+  }

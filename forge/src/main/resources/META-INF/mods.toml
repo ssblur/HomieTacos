@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[39,)"
+#issueTrackerURL = ""
+license = "GPLv2"
+
+[[mods]]
+modId = "homie"
+version = "${version}"
+displayName = "Homie Tacos"
+authors = "SSBlur"
+description = '''
+Eat your homies!
+'''
+#logoFile = ""
+
+[[dependencies.homie]]
+modId = "forge"
+mandatory = true
+versionRange = "[39,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.homie]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.homie]]
+modId = "architectury"
+mandatory = true
+versionRange = "[3.7.22,)"
+ordering = "AFTER"
+side = "BOTH"

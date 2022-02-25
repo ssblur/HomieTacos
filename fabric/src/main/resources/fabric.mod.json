@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "homie",
+  "version": "${version}",
+  "name": "Homie Tacos",
+  "description": "Eat your homies!",
+  "authors": [
+    "SSBlur"
+  ],
+  "contact": {
+    "homepage": "https://ssblur.com/"
+  },
+  "license": "GPLv2",
+  "icon": "assets/homie/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ssblur.homie.fabric.HomieModFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.1",
+    "architectury": ">=3.7.22"
+  }
+}

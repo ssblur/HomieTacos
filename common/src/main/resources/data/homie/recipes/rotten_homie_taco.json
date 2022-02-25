@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "R": {
+            "item": "minecraft:rotten_flesh"
+        }
+    },
+    "result": {
+        "item": "homie:rotten_homie_taco",
+        "count": 1
+    }
+}
